@@ -1,0 +1,36 @@
+{
+  "name": "hng12-stage0-public-api",
+  "version": "1.0.0",
+  "description": "HNG12 Internship Stage 0 Backend API - Developed using TypeScript, Node.js, and Express.js.  Meets task requirements for public API, CORS handling, and documentation.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node dist/index.js", 
+    "dev": "nodemon src/index.ts",  
+    "build": "tsc",      
+    "lint": "eslint src/**/*.ts", 
+    "format": "prettier --write src/**/*.ts" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Drelcj/hng12-stage0-public-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Drelcj/hng12-stage0-public-api/issues"
+  },
+  "homepage": "https://github.com/Drelcj/hng12-stage0-public-api#readme",
+  "dependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.13.1",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "typescript": "^5.7.3"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17"
+  }
+}
